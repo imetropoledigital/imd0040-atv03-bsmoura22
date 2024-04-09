@@ -7,7 +7,7 @@ public class Musician extends Person{
     public boolean canCompose;
 
 
-    Musician(String name, String hometown) {
+    Musician(String name, String hometown, boolean playClassicalMusic, boolean canImprovise, boolean canCompose) {
         super(name, hometown);
         this.playClassicalMusic = playClassicalMusic;
         this.canImprovise = canImprovise;
